@@ -34,7 +34,7 @@ K-Means Clustering is a popular and straightforward algorithm in unsupervised le
 
 ### Basics of K-Means Clustering:
 
-    - Goal: To partition the data into K distinct, non-overlapping clusters.
+     - Goal: To partition the data into K distinct, non-overlapping clusters.
 
     - Method: It assigns each data point to the nearest cluster center (centroid) based on distance, typically Euclidean distance.
 
