@@ -44,7 +44,7 @@ While unsupervised learning is powerful for discovering hidden structures in dat
 
 1. Clustering Algorithms:
 
-  - K-Means Clustering: Partitions data into K number of distinct clusters based on distance to the centroid of a cluster.
+   - K-Means Clustering: Partitions data into K number of distinct clusters based on distance to the centroid of a cluster.
 
   - Hierarchical Clustering: Builds a hierarchy of clusters by progressively merging or splitting existing groups.
   
