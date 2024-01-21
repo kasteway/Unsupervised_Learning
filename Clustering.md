@@ -101,8 +101,8 @@ Hierarchical clustering is a versatile method that provides a detailed insight i
    - Method: It creates a tree-like structure (dendrogram) representing the data points and their hierarchical relationships.
 
       #### Two Main Approaches:
-         - Agglomerative (Bottom-Up): Starts with each data point as a separate cluster and merges them step by step based on some similarity measure.
-         - Divisive (Top-Down): Starts with all data points in a single cluster and recursively splits the cluster into smaller clusters.
+       - Agglomerative (Bottom-Up): Starts with each data point as a separate cluster and merges them step by step based on some similarity measure.
+        - Divisive (Top-Down): Starts with all data points in a single cluster and recursively splits the cluster into smaller clusters.
 
 
 ### Process:
