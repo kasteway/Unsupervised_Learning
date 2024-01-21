@@ -46,20 +46,20 @@ While unsupervised learning is powerful for discovering hidden structures in dat
 
    - K-Means Clustering: Partitions data into K number of distinct clusters based on distance to the centroid of a cluster.
 
-  - Hierarchical Clustering: Builds a hierarchy of clusters by progressively merging or splitting existing groups.
+   - Hierarchical Clustering: Builds a hierarchy of clusters by progressively merging or splitting existing groups.
   
-  - DBSCAN (Density-Based Spatial Clustering of Applications with Noise): Forms clusters based on the density of data points in a region, good for data with noise and outliers.
+   - DBSCAN (Density-Based Spatial Clustering of Applications with Noise): Forms clusters based on the density of data points in a region, good for data with noise and outliers.
 
 2. Dimensionality Reduction:
 
-  - Principal Component Analysis (PCA): Reduces the dimensionality of data by transforming to a new set of variables (principal components) that maximize variance.
+   - Principal Component Analysis (PCA): Reduces the dimensionality of data by transforming to a new set of variables (principal components) that maximize variance.
 
-  - t-Distributed Stochastic Neighbor Embedding (t-SNE): Reduces dimensions while keeping similar data points close and dissimilar points apart, often used for high-dimensional data visualization.
+   - t-Distributed Stochastic Neighbor Embedding (t-SNE): Reduces dimensions while keeping similar data points close and dissimilar points apart, often used for high-dimensional data visualization.
 
 3. Association Rule Learning:
 
-  - Apriori Algorithm: Identifies frequent item sets and then constructs association rules, often used in market basket analysis.
+   - Apriori Algorithm: Identifies frequent item sets and then constructs association rules, often used in market basket analysis.
 
-  - FP-Growth Algorithm: Similar to Apriori but uses a more efficient approach to find frequent item sets without candidate generation.
+   - FP-Growth Algorithm: Similar to Apriori but uses a more efficient approach to find frequent item sets without candidate generation.
 
 ---
