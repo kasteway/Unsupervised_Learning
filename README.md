@@ -61,5 +61,5 @@ While unsupervised learning is powerful for discovering hidden structures in dat
    - Apriori Algorithm: Identifies frequent item sets and then constructs association rules, often used in market basket analysis.
 
    - FP-Growth Algorithm: Similar to Apriori but uses a more efficient approach to find frequent item sets without candidate generation.
-
+-
 ---
