@@ -37,33 +37,33 @@ Manhattan distance and Euclidean distance are two common metrics used in unsuper
 
 --- 
 
-## Selecting which measurment to use:
+# Selecting which measurment to use:
 
 The choice between Manhattan and Euclidean distances in unsupervised learning depends on the specific characteristics of the data and the requirements of the particular application or algorithm.
 
 
 
-1. Nature of Data:
+## 1. Nature of Data:
 
 - Choose Manhattan distance if the data is high-dimensional or has many outliers.
 
 - Opt for Euclidean distance when the straight-line distance is more relevant and meaningful.
 
-2. Specific Requirements of the Algorithm/Application:
+## 2. Specific Requirements of the Algorithm/Application:
 
  - In algorithms where axis-aligned differences are important, Manhattan distance might be more suitable.
 
 - For scenarios where the composite difference along all dimensions is crucial, Euclidean distance is preferred.
 
-3. Outliers Sensitivity:
+## 3. Outliers Sensitivity:
 
 - Manhattan distance is more robust to outliers compared to Euclidean distance.
 
-4. Dimensionality of Data:
+## 4. Dimensionality of Data:
 
 - In high-dimensional spaces, Manhattan distance often performs better as Euclidean distance can become inflated.
 
-5. Intuitive Understanding:
+## 5. Intuitive Understanding:
 
 - Euclidean distance might be more intuitive in physical space or in applications where the concept of 'straight-line' distance is essential.
 
