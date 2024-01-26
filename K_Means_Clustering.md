@@ -33,6 +33,10 @@ It's known for its simplicity and efficiency, though it has limitations, such as
 
 - Methods: Techniques like the Elbow Method, Silhouette Method, or Cross-validation are often used to estimate an appropriate number of clusters.
 
+![Screenshot 2024-01-26 at 12 01 10 PM](https://github.com/kasteway/Unsupervised_Learning/assets/62068733/4f0ba344-e63e-40b8-bdae-db744aba01bd)
+
+![Screenshot 2024-01-26 at 12 01 40 PM](https://github.com/kasteway/Unsupervised_Learning/assets/62068733/15c2997b-8067-42b0-a6fb-81febb7bd8ea)
+
 ## Applications:
 
 - Versatile: K-means is used in a wide range of applications including market segmentation, document clustering, image segmentation, and pattern recognition.
