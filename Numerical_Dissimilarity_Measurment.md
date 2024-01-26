@@ -1,7 +1,9 @@
-# Manhattan & Euclidean Distance Measurments for Similarity or Dissimilarity
+# Manhattan & Euclidean Distance Measurments of Dissimilarity for Numberical
 
 
 Manhattan distance and Euclidean distance are two common metrics used in unsupervised learning for measuring the similarity or dissimilarity between data points. Both Manhattan and Euclidean distances play crucial roles in unsupervised learning, particularly in clustering tasks, with their applicability depending on the data characteristics and the problem context.
+
+- Manhattan and Euclidean distances are primarily used for numerical data in unsupervised learning.
 
 *** The data points must be standardized before calculating 
 - Standardization is generally recommended when the scales of features are different, especially in distance-based algorithms, to ensure that all features contribute equally to the results.
