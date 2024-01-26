@@ -5,6 +5,15 @@ K-means clustering is a widely used unsupervised learning algorithm for partitio
 
 It's known for its simplicity and efficiency, though it has limitations, such as sensitivity to initial centroid placement and difficulty with complex cluster shapes. The choice of K and dealing with its limitations are critical aspects of effectively using K-means in practical applications.
 
+
+## Applications:
+
+- Versatile: K-means is used in a wide range of applications including market segmentation, document clustering, image segmentation, and pattern recognition.
+
+- Large Datasets: Its efficiency makes it suitable for large datasets, though it may struggle with very high-dimensional data.
+
+---
+
 ### Basic Concept:
 
 - Goal: The goal of K-means is to group similar data points together and discover underlying patterns. It aims to partition the dataset into K clusters, where each data point belongs to the cluster with the nearest mean.
@@ -28,6 +37,19 @@ It's known for its simplicity and efficiency, though it has limitations, such as
    - The assignment and update steps are repeated iteratively until the centroids stabilize and don't change significantly between iterations, or a maximum number of iterations is reached.
 
 --- 
+
+
+## Limitations:
+
+- Sensitivity to Initial Centroids: The final clusters can be sensitive to the initial random choice of centroids.
+
+- Assumes Spherical Clusters: It assumes clusters are spherical and equally sized, which might not be the case in real-world data.
+
+- Outliers Impact: The algorithm can be sensitive to outliers, which can skew the centroids.
+
+- Difficulty with Complex Cluster Shapes: K-means might not work well with non-linearly separable or complex cluster shapes.
+
+---
 
 ## Choosing K:
 
@@ -86,21 +108,9 @@ The choice of K should also consider domain knowledge and the specific context o
 
 --- 
 
-## Applications:
 
-- Versatile: K-means is used in a wide range of applications including market segmentation, document clustering, image segmentation, and pattern recognition.
 
-- Large Datasets: Its efficiency makes it suitable for large datasets, though it may struggle with very high-dimensional data.
 
-## Limitations:
-
-- Sensitivity to Initial Centroids: The final clusters can be sensitive to the initial random choice of centroids.
-
-- Assumes Spherical Clusters: It assumes clusters are spherical and equally sized, which might not be the case in real-world data.
-
-- Outliers Impact: The algorithm can be sensitive to outliers, which can skew the centroids.
-
-- Difficulty with Complex Cluster Shapes: K-means might not work well with non-linearly separable or complex cluster shapes.
 
 ## Variants and Improvements:
 
