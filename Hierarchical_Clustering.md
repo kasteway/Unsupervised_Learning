@@ -1,4 +1,4 @@
-# 2. Hierarchical Clustering:
+# Hierarchical Clustering:
 
 Hierarchical clustering is a method of cluster analysis which seeks to build a hierarchy of clusters. 
 
