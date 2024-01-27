@@ -4,6 +4,8 @@ Hierarchical clustering is a method of cluster analysis which seeks to build a h
 
 Hierarchical clustering is a versatile method that provides a detailed insight into the data structure without requiring the number of clusters to be specified beforehand. Its main challenges lie in computational demands and the sensitivity to the choice of linkage criteria.
 
+*** Can be used for Numerical & Categorical Data ***
+
 ### Basics of Hierarchical Clustering:
 
    - Goal: To build a hierarchy of clusters, either by merging smaller clusters into larger ones or splitting larger clusters into smaller ones.
