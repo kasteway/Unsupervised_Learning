@@ -6,6 +6,8 @@ K-means clustering is a widely used unsupervised learning algorithm for partitio
 It's known for its simplicity and efficiency, though it has limitations, such as sensitivity to initial centroid placement and difficulty with complex cluster shapes. The choice of K and dealing with its limitations are critical aspects of effectively using K-means in practical applications.
 
 
+*** Used on NUMERICAL data Only ***
+
 ## Applications:
 
 - Versatile: K-means is used in a wide range of applications including market segmentation, document clustering, image segmentation, and pattern recognition.
