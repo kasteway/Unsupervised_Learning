@@ -34,7 +34,7 @@ Hierarchical clustering is a versatile method that provides a detailed insight i
    - Dendrograms are a crucial tool in unsupervised learning for visualizing the results of hierarchical clustering, aiding in the determination of the optimal number of clusters, understanding the data structure, and comparing different clustering approaches. They provide a unique and intuitive way to explore and interpret complex data relationships.
 
 <img width="705" alt="Screenshot 2024-01-27 at 7 37 32 AM" src="https://github.com/kasteway/Unsupervised_Learning/assets/62068733/03cd1c8a-3f01-46fe-bcd0-dfdbd9031129">
-(https://sacramento.craigslist.org/](https://www.datacamp.com/tutorial/introduction-hierarchical-clustering-python)
+(Data Camp](https://www.datacamp.com/tutorial/introduction-hierarchical-clustering-python)
 
 ---
 ### Advantages:
