@@ -64,36 +64,41 @@ In hierarchical clustering, the method used to determine the distance between cl
 Each linkage method has its advantages and disadvantages, and the choice of method can significantly impact the results of hierarchical clustering. 
 
 
-### 1. Single Linkage (Nearest Neighbor):
+### 1. Ward's Method:
+*** Most often used & applied only to Numerical Quanitative Variables ***
+
+- Description: Ward's method looks to minimize the total within-cluster variance. At each step, the pair of clusters with the minimum between-cluster distance (in terms of variance) is merged.
+
+- Characteristics: This method tends to create more equally sized clusters and is particularly useful when clusters are roughly spherical. It's less likely to be influenced by outliers compared to single linkage.
+  
+![Screenshot 2024-01-27 at 7 17 37 AM](https://github.com/kasteway/Unsupervised_Learning/assets/62068733/c318461a-017b-44e9-a7d0-f0f1cafb2138)
+
+### 2. Single Linkage (Nearest Neighbor):
 
 - Description: In single linkage clustering, the distance between two clusters is defined as the shortest distance between any two points in the respective clusters.
 
 - Characteristics: This method can create long, "stringy" clusters. It's sensitive to outliers and can sometimes result in clusters that are not very compact or homogeneous.
 
 
-### 2. Complete Linkage (Farthest Neighbor):
+### 3. Complete Linkage (Farthest Neighbor):
 
 - Description: Complete linkage defines the distance between two clusters as the longest distance between any two points in the respective clusters.
 
 - Characteristics: This method tends to create more compact and evenly sized clusters compared to single linkage and is less sensitive to outliers. However, it can be influenced by extreme values.
 
-### 3. Group Average Linkage (Average Linkage):
+### 4. Group Average Linkage (Average Linkage):
 
 - Description: The distance between two clusters is computed as the average distance between all pairs of points in the two clusters.
 
 - Characteristics: This method balances between the sensitivity of single and complete linkage, often providing more natural clusterings. It's less sensitive to outliers than single linkage.
 
-### 4. Centroid Linkage (UPGMC):
+### 5. Centroid Linkage (UPGMC):
 
 - Description: In centroid linkage clustering, the distance between two clusters is the distance between their centroids (i.e., the mean point of each cluster).
 
 - Characteristics: This method can be affected by the sizes of the clusters, and clusters may not be as well-separated as with other methods. It's also sensitive to initial conditions and may result in different clusterings depending on the initial centroids.
 
-### 5. Ward's Method:
 
-- Description: Ward's method looks to minimize the total within-cluster variance. At each step, the pair of clusters with the minimum between-cluster distance (in terms of variance) is merged.
-
-- Characteristics: This method tends to create more equally sized clusters and is particularly useful when clusters are roughly spherical. It's less likely to be influenced by outliers compared to single linkage.
 
 ---
 
