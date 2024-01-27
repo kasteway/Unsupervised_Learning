@@ -70,27 +70,28 @@ The choice between Manhattan and Euclidean distances in unsupervised learning de
 - Euclidean distance might be more intuitive in physical space or in applications where the concept of 'straight-line' distance is essential.
 
 ---
-
+## Standardizing data points: 
 
 Standardizing data points in unsupervised learning, particularly when using distance-based methods like clustering or dimensionality reduction, is often very important, but not always mandatory. Whether or not to standardize data points in unsupervised learning depends on the nature of your data and the specific algorithm you are using. 
 
+- Scale Sensitivity: Many unsupervised learning algorithms, such as K-means clustering and Principal Component Analysis (PCA), are sensitive to the scale of the data. If the features are on different scales, algorithms that rely on distance measurements can be biased towards the features with larger scales.
 
-Here are some key points to consider:
+- Standardization Purpose: Standardization (or Z-score normalization) transforms the data to have a mean of zero and a standard deviation of one. This process puts different variables on the same scale, ensuring that each feature contributes equally to the distance calculations.
 
-Scale Sensitivity: Many unsupervised learning algorithms, such as K-means clustering and Principal Component Analysis (PCA), are sensitive to the scale of the data. If the features are on different scales, algorithms that rely on distance measurements can be biased towards the features with larger scales.
+## When It's Crucial:
 
-Standardization Purpose: Standardization (or Z-score normalization) transforms the data to have a mean of zero and a standard deviation of one. This process puts different variables on the same scale, ensuring that each feature contributes equally to the distance calculations.
+- Diverse Feature Scales: If your dataset has features measured in different units (e.g., height in centimeters and weight in kilograms), standardization is crucial.
 
-When It's Crucial:
+- Algorithms Requiring Distance Measures: In algorithms like K-means or hierarchical clustering, where the distance between data points is a key factor, standardization helps in preventing the dominance of certain features over others.
 
-Diverse Feature Scales: If your dataset has features measured in different units (e.g., height in centimeters and weight in kilograms), standardization is crucial.
-Algorithms Requiring Distance Measures: In algorithms like K-means or hierarchical clustering, where the distance between data points is a key factor, standardization helps in preventing the dominance of certain features over others.
-When It Might Not Be Necessary:
+## When It Might Not Be Necessary:
 
-Homogenous Feature Scales: If all features are already on a similar scale or have similar ranges of values, standardization might not be as critical.
-Certain Algorithms: Some algorithms, like DBSCAN (Density-Based Spatial Clustering of Applications with Noise), may not require standardization depending on the context and the nature of the data.
-Data Distribution Considerations: Standardization assumes that the features follow a normal distribution. If this is not the case, other methods of scaling like Min-Max scaling might be more appropriate.
+- Homogenous Feature Scales: If all features are already on a similar scale or have similar ranges of values, standardization might not be as critical.
 
-Impact on Interpretability: Standardization can sometimes reduce the interpretability of the results, as the transformed data does not have the original units or scale. This aspect is important to consider, especially when explaining results to a non-technical audience.
+- Certain Algorithms: Some algorithms, like DBSCAN (Density-Based Spatial Clustering of Applications with Noise), may not require standardization depending on the context and the nature of the data.
 
+- Data Distribution Considerations: Standardization assumes that the features follow a normal distribution. If this is not the case, other methods of scaling like Min-Max scaling might be more appropriate.
 
+- Impact on Interpretability: Standardization can sometimes reduce the interpretability of the results, as the transformed data does not have the original units or scale. This aspect is important to consider, especially when explaining results to a non-technical audience.
+
+---
